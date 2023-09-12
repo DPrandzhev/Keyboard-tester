@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply your color scheme */
+body {
+    background-color: #98BF64; /* Olive */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3A5311; /* Juniper */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+    background-color: #3A5311; /* Juniper */
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #3A5311; /* Juniper */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Your existing CSS for the color scheme and general styling */
+
+/* Style for virtual keyboard keys */
+.key {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #3A5311; /* Juniper */
+    background-color: transparent;
+    color: #3A5311; /* Juniper */
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Special styling for keys that need it */
+.key.special {
+    width: 80px;
+}
+
+.key:hover {
+    background-color: #3A5311; /* Juniper on hover */
+    color: white;
+}
+
+.key.active {
+    background-color: #3A5311; /* Juniper when pressed */
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Additional styling as needed */
